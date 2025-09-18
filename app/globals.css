@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Custom animations for mobile menu */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}
+
+/* Background images */
+.aa{
+    background-image: url(/bghome.png);
+    background-size: cover;
+}
+.ss{
+    background-image: url(/bghome2.png);
+    background-size: cover;
+}
+.dd{
+    background-image: url(/bghome3.png);
+    background-size: cover;
+}
+.ff{
+    background-image: url(/bghome4.png);
+    background-size: cover;
+}
+.gg{
+    background-image: url(/bghome5.png);
+    background-size: cover;
+}
+.hh{
+    background-image: url(/Background.png);
+    background-size: cover;
+}
+.jj{
+    background-image: url(/Background1.png);
+    background-size: cover;
+}
+.kk{
+    background-image: url(/cc1.png);
+    background-size: cover;
+}
+.ll{
+    background-image: url(/cc2.png);
+    background-size: cover;
+}
+.zz{
+    background-image: url(/cc3.png);
+    background-size: cover;
+}
